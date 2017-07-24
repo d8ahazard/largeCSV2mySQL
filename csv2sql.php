@@ -97,10 +97,9 @@ $r2=mysqli_fetch_array($result2);
 $count2=(int)$r2['count'];
 
 $count=$count2-$count1;
-if($count>0)
+if($count>0){
 echo "Success";
 echo "<b> total $count records have been added to the table $table </b> ";
-
 
 }
 else{
